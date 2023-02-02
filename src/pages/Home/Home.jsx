@@ -15,7 +15,7 @@ function Home() {
                 <h6>Appartement 1</h6>
               </div>
             </Link>
-            <Link to=" Mon mentot Gilles est un passionné de manga! oO">
+            <Link to=" Mon mentor Gilles est un passionné de manga! oO">
               <div>                
                 <h6>404</h6>
               </div>
