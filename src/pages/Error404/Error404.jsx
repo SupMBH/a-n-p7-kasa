@@ -6,7 +6,7 @@ function Error404() {
         <header className="App-header">
              
           <p>
-            <h1>ERREUR 404</h1>
+            <h1>Oups 🙈 Cette page n'existe pas</h1>
           </p>          
         </header>
       </div>
