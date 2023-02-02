@@ -6,7 +6,7 @@ function About() {
         <header className="App-header">
              
           <p>
-            <h1>ABOUT</h1>
+            <h1>et blablabla et blabla bla </h1>
           </p>          
         </header>
       </div>
