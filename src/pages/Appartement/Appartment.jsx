@@ -8,7 +8,7 @@ function Appartment() {
       <div className="App">
         <header className="App-header">
         <p>
-            <h2>APPARTEMENT 1 </h2>
+            APPARTEMENT 1 
         </p>
           <img src={logo} className="App-logo" alt="logo" />          
           <nav>
