@@ -1,29 +1,32 @@
-import logo from '../../assets/images/logo.svg';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import data from '../../assets/data/data.json';
+import Banner from '../../components/Banner';
+import AppartmentCard from '../../components/AppartmentCards';
 import '../../assets/styles/Home.css';
+import bannerImg from '../../assets/images/bannerImg.jpeg';
 
-import { Link } from "react-router-dom";
+const Home = () => {
+  const bannerTitle = 'Chez vous, partout et ailleurs';
 
-function Home() {
   return (
-    <div className="App">
-      <header className="App-header">       
-          <h1>HOME</h1>                    
-        <nav>            
-            <Link to="/appartment">
-              <div>
-                <img src={logo} className="App-logo" alt="logo" />
-                <h6>Appartement 1</h6>
-              </div>
-            </Link>
-            <Link to=" Mon mentor Gilles est un passionné de manga! oO">
-              <div>                
-                <h6>404</h6>
-              </div>
-            </Link>
-        </nav>     
-      </header>
+    <div>
+      <Banner title={bannerTitle} picture={bannerImg} />
+      <main className="main">
+        {data.map((apartment) => (
+          <Link
+            className="main__link"
+            to={`/apartment/${apartment.id}`}
+            key={apartment.id}
+            title={apartment.title}
+          >
+            <AppartmentCard {...apartment} />
+          </Link>
+        ))}
+      </main>
     </div>
   );
-}
+};
 
 export default Home;
+//R
