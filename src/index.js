@@ -25,7 +25,7 @@ root.render(
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About />}/>
-        <Route path="appartment" element={<Appartment />} />        
+        <Route path="apartment/:productId" exact strict element={<Appartment />} />        
         <Route path="*" element={<Error404 />} /> {/*Page d'erreur car impossibilité d'exporter <switch> malgré 'npm install react-router-dom@latest',
          ou encore 'yarn add react-router-dom@latest'*/}
       </Routes>
