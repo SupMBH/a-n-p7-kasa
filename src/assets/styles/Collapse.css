@@ -1,0 +1,26 @@
+.collapse__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6060;    
+    color: white;
+}
+.collapse__arrow {
+    width: 14;
+    height: auto;
+}
+.collapse__arrow--rotate {
+    transform: rotate(180deg);
+    transition: transform 300ms;
+}
+.collapse__title {
+    font-size: 24px;
+}
+.collapse__text {
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;  
+}
+.collapse__hide {
+    display: none;
+}
