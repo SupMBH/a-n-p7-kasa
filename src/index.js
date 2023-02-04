@@ -15,22 +15,13 @@ import About from './pages/About/About.jsx'
 import Error404 from './pages/Error404/Error404.jsx';
 import Appartment from './pages/Apartement/Apartment.jsx';
 import './assets/styles/index.css';
+// import Router
+import Router from './components/Router';
 //Module de traction
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  
-  <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />}/>
-        <Route path="apartment/:productId" exact strict element={<Appartment />} />        
-        <Route path="*" element={<Error404 />} /> {/*Page d'erreur car impossibilité d'exporter <switch> malgré 'npm install react-router-dom@latest',
-         ou encore 'yarn add react-router-dom@latest'*/}
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <Router />
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
