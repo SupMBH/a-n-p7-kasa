@@ -7,6 +7,7 @@ import Footer from './Footer.jsx';
 import About from '../pages/About/About.jsx'
 import Error404 from '../pages/Error404/Error404.jsx';
 import Appartment from '../pages/Apartement/Apartment.jsx';
+//import './assets/styles/normalize.css'
 
 const Router = () => (
     <BrowserRouter>
