@@ -18,6 +18,6 @@
 - OK
 - OK
 - CSS pour toutes les pages / components
-- routeur en component ? voir si utile
+- OK
 - faire un max de commentaires explicatifs 
 - contrôler les CSS faits à la loupe
