@@ -1,12 +1,12 @@
-import "../../assets/styles/Appartment.css";
+import "../../assets/styles/Apartment.css";
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import data from "../../assets/data/data.json";
 import Slideshow from "../../components/Slideshow";
-import ApartmentTag from "../../components/AppartmentTag";
+import ApartmentTag from "../../components/ApartmentTag";
 import Collapse from "../../components/Collapse";
-import Rate from "./../../components/Rate";
-import HostName from "./../../components/HostName";
+import Rate from "../../components/Rate";
+import HostName from "../../components/HostName";
 
 function Apartment() {
   const { productId } = useParams();

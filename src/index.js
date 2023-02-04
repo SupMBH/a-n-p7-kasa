@@ -13,7 +13,7 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import About from './pages/About/About.jsx'
 import Error404 from './pages/Error404/Error404.jsx';
-import Appartment from './pages/Appartement/Appartment.jsx';
+import Appartment from './pages/Appartement/Apartment.jsx';
 import './assets/styles/index.css';
 //Module de traction
 const root = ReactDOM.createRoot(document.getElementById('root'));

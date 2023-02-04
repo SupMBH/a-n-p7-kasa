@@ -1,5 +1,5 @@
 
-import "../assets/styles/AppartmentTag.css";
+import "../assets/styles/ApartmentTag.css";
 
 const ApartmentTag = ({ getTag }) => (
 

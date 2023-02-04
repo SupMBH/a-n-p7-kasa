@@ -1,4 +1,4 @@
-import "../assets/styles/AppartmentCards.css";
+import "../assets/styles/ApartmentCards.css";
 
 const ApartmentCard = ({cover, title}) => (
   <article className="article">

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import data from '../../assets/data/data.json';
 import Banner from '../../components/Banner';
-import AppartmentCard from '../../components/AppartmentCards';
+import AppartmentCard from '../../components/ApartmentCards';
 import '../../assets/styles/Home.css';
 import bannerImg from '../../assets/images/bannerImg.jpeg';
 
