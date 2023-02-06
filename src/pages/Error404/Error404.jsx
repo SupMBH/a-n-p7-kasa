@@ -1,6 +1,7 @@
 import "../../assets/styles/Error404.css";
 import { Link } from "react-router-dom";
 
+//La fonction Error404 renvoi un composant qui affiche une div comportant l'erreur et un link de retour en page Home
 function Error404() {
   return (
     <div className="wrapper-error">
@@ -14,4 +15,3 @@ function Error404() {
 }
 
 export default Error404;
-//R
