@@ -22,6 +22,7 @@ function Apartment() {
     if (!apartment) navigate("Error404");
   });
   //Si apartment est bien def, alors on décompose cet objet en propriétés que l'on va afficher ou injecter dans les composants enfants afin qu'ils les retraitent 
+  //Dans la div apartement__tags, on map le tableau apartment.tags pour renvoyer un composant ApartmentTag en lui passant le tag courant en tant que propriété getTag 
   if (apartment) {
     const { title, location, rating, host, equipments, description, pictures } =
       apartment;
