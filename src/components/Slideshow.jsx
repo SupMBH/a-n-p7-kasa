@@ -4,6 +4,7 @@ import arrowLeft from "../assets/images/arrowLeft.svg";
 import arrowRight from "../assets/images/arrowRight.svg";
 import { useState } from "react";
 
+//
 function Slideshow({ props }) {
   const [current, updateCurrent] = useState(0);
   const length = props.length;

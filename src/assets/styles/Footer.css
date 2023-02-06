@@ -29,3 +29,12 @@
     font-size: 24px;
     
   }
+
+  @media (min-width:300px) and (max-width: 768px) {
+    .footer {
+      margin-top: 168px;
+    }
+    .footer__mentions {
+      font-size: 12px;
+    }   
+  }

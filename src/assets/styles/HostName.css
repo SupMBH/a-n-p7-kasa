@@ -20,3 +20,16 @@
     height: 64px;
     width: 64px;
   }
+
+  @media (max-width: 768px) {
+    .host__picture {
+      height: 32px;
+      width: 32px;
+    }
+    .host__name {
+      font-size: 12px;
+    }
+    .host {
+      margin-bottom: 0px;
+    }
+  }
