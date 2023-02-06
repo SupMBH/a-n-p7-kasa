@@ -4,7 +4,10 @@ import arrowLeft from "../assets/images/arrowLeft.svg";
 import arrowRight from "../assets/images/arrowRight.svg";
 import { useState } from "react";
 
-//
+//la fonction prend en propriété un tableau d'images et utilise l'état local current pour savoir quelle image afficher.
+//On stocke la longueur du tableau dans la const lengh et si >1 donc plus d'une image, affichage des flèches
+//les fonctions next et prev mettent à jour l'état current pour faire défiler à gauche ou droite
+//On map pour afficher les images dans les div mais seule l'actuelle est affichée dans active-pictrure 
 function Slideshow({ props }) {
   const [current, updateCurrent] = useState(0);
   const length = props.length;
