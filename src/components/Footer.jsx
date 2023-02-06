@@ -2,6 +2,7 @@ import "../assets/styles/Footer.css";
 import Logo from "./Logo";
 import { Link } from "react-router-dom";
 
+//Fonction de pied de page avec logo en lien et mentions
 function Footer() {
   return (
     <footer className="footer">
