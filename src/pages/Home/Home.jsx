@@ -6,7 +6,7 @@ import AppartmentCard from '../../components/ApartmentCards';
 import '../../assets/styles/Home.css';
 import bannerImg from '../../assets/images/bannerImg.jpeg';
 
-//Fonction de composant réact Home qui définie la page Home en returnant un composant div composé du composant Banner puis une section principale en classe main
+//Fonction de composant Home qui définie la page Home en returnant un composant div composé du composant enfant Banner puis une section principale en classe main
 const Home = () => {
   //On définie bannerTitle avec le string demandé   
   const bannerTitle = 'Chez vous, partout et ailleurs';  
