@@ -6,11 +6,15 @@ import AppartmentCard from '../../components/ApartmentCards';
 import '../../assets/styles/Home.css';
 import bannerImg from '../../assets/images/bannerImg.jpeg';
 
+//Fonction de composant réact Home qui définie la page Home en returnant un composant div composé du composant Banner puis une section principale en classe main
 const Home = () => {
-  const bannerTitle = 'Chez vous, partout et ailleurs';
-
+  //On définie bannerTitle avec le string demandé   
+  const bannerTitle = 'Chez vous, partout et ailleurs';  
   return (
-    <div>
+    //On va d'abord retourner Banner qui est passé avec les propriétés title et picture (définies repsectivement par bannerTitle et bannerImg)
+    //ensuite on itère sur le tableau data avec la méthode map et pour chaque élément du tab, on rend un composant AppartmentCard avec les propriétés de cet élément 
+    //On utilise la syntaxe de décomposition de l'objet (...). Le tout est linké et passé avec les propriétés to, key et title.
+    <div>      
       <Banner title={bannerTitle} picture={bannerImg} />
       <main className="main">
         {data.map((apartment) => (
@@ -27,6 +31,5 @@ const Home = () => {
     </div>
   );
 };
-
+//On exporte Home en tant que composant par défaut
 export default Home;
-//R
