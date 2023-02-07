@@ -19,5 +19,5 @@
 - OK
 - OK
 - OK
-- faire un max de commentaires explicatifs 
+- OK 
 - contrôler les CSS faits à la loupe
