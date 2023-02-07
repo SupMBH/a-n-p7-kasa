@@ -17,7 +17,7 @@
 - OK
 - OK
 - OK
-- CSS pour toutes les pages / components
+- OK
 - OK
 - faire un max de commentaires explicatifs 
 - contrôler les CSS faits à la loupe
