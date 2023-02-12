@@ -9,4 +9,3 @@ const AboutBanner = ({ picture }) => (
 );
 
 export default AboutBanner;
-//R
