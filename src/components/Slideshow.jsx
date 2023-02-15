@@ -11,7 +11,9 @@ import { useState } from "react";
 function Slideshow({ props }) {
   const [current, updateCurrent] = useState(0);
   const length = props.length;
+  //next incrémente l'indice current s'il n'est pas au maximum, sinon il le remet à 0
   const next = () => updateCurrent(current === length - 1 ? 0 : current + 1);
+  //prev décrémente l'indice current s'il n'est pas à 0, sinon il le remet à la dernière image
   const prev = () => updateCurrent(current === 0 ? length - 1 : current - 1);
   return (
     <div className="slideshow">
