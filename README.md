@@ -9,6 +9,6 @@ Verifier également en cas de warning relatif au Routeur, que le paquet "react-r
 
 ## lancez le projet
 
-'yarn start'
+'npm start'
 
 Ouvrez [http://localhost:3000](http://localhost:3000) pour le visualiser dans votre Browser.
