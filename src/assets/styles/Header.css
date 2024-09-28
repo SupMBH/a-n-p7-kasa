@@ -53,3 +53,14 @@
 .header__nav .nav-link:hover::after {
   height: 2px;
 }
+
+/* Ajout effet survol grossissement logo 28/09/24 */
+
+.header__logo {
+  transition: transform 0.1s ease-in-out; 
+}
+
+.header__logo:hover {
+  transform: scale(1.05); 
+  cursor: pointer; 
+}

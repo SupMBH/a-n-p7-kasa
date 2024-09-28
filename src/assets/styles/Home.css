@@ -32,3 +32,13 @@
     margin: 43px 20px;
   } 
  }
+
+ /* Ajout 28/09/24 effet loupe vignettes */
+.main__link {
+  transition: transform 0.1s ease-in-out; 
+}
+
+.main__link:hover {
+  transform: scale(1.05); 
+  cursor: pointer; 
+}
